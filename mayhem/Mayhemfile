@@ -1,0 +1,6 @@
+project: gridsort
+target: gridsort-fuzz
+
+cmds:
+    - cmd: ./gridsort-fuzz
+      libfuzzer: true
