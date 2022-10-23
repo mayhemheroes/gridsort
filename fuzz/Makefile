@@ -1,3 +1,3 @@
 
 gridsort-fuzz: gridsort-fuzz.c
-	clang -g -fsanitize=fuzzer,address gridsort-fuzz.c -o gridsort-fuzz
+	clang -g -fsanitize=fuzzer gridsort-fuzz.c -o gridsort-fuzz
